@@ -52,6 +52,17 @@ VALUES
 
 ---
 
+## Curls para postman
+### Importante: Usar el puerto 4001 (o cambiar al que se requiera)
+
+```curl
+curl --location 'http://localhost:4001/prestamos/api'
+
+curl --location 'http://localhost:4001/prestamos/api/filtrar?estado=pendiente&fechaInicio=2024-12-03&fechaFin=2024-12-08'
+```
+
+---
+
 ## Créditos
 
 Desarrollado por Cristopher Diaz.
