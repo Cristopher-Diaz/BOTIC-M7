@@ -32,6 +32,7 @@ DROP DATABASE IF EXISTS m7_final_drilling;
 CREATE DATABASE m7_final_drilling;
 USE m7_final_drilling;
 
+-- Crear tabla prestamos
 CREATE TABLE prestamos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     fecha_prestamo DATE NOT NULL,
@@ -47,7 +48,10 @@ VALUES
 ('2024-12-18', 'Cien Años de Soledad', '2024-12-22', 'María López', 'd'),
 ('2024-12-15', 'Sapiens', '2024-12-20', 'Carlos García', 'd'),
 ('2024-12-22', 'Breve Historia del Tiempo', '2024-12-28', 'Ana Fernández', 'd'),
-('2024-12-10', 'Historia de la Humanidad', NULL, 'Juan Pérez', 'p');
+('2024-12-10', 'Historia de la Humanidad', NULL, 'Juan Pérez', 'p'),
+('2024-12-07', 'El Quijote', NULL, 'Juan Pérez', 'p');
+
+SELECT * FROM prestamos;
 ```
 
 ---
